@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Pj-rG-G2e">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--What's going on?-->
+        <scene sceneID="SDg-wj-QTT">
+            <objects>
+                <viewController title="What's going on?" id="3SS-VH-83w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1iX-Jo-MtK"/>
+                        <viewControllerLayoutGuide type="bottom" id="edg-hz-cwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t6l-I6-MSh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Franco's First App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M08-Ov-QIZ">
+                                <rect key="frame" x="218" y="111" width="165" height="23"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAz-Lv-2SB">
+                                <rect key="frame" x="97" y="437" width="82" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="My Bio Info"/>
+                                <connections>
+                                    <segue destination="qVi-XE-9M6" kind="show" id="YXH-T1-Rn8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBV-xk-M9F">
+                                <rect key="frame" x="420" y="437" width="68" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="My Goals"/>
+                                <connections>
+                                    <segue destination="hcc-4y-hLV" kind="show" id="mHR-PE-uoB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ehS-eD-tXa">
+                                <rect key="frame" x="199" y="169" width="184" height="247"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="edg-hz-cwB" firstAttribute="top" secondItem="NAz-Lv-2SB" secondAttribute="bottom" constant="133" id="3gg-Dm-pB5"/>
+                            <constraint firstItem="ehS-eD-tXa" firstAttribute="top" secondItem="M08-Ov-QIZ" secondAttribute="bottom" constant="35" id="L4g-uE-P7a"/>
+                            <constraint firstItem="NAz-Lv-2SB" firstAttribute="leading" secondItem="t6l-I6-MSh" secondAttribute="leadingMargin" constant="77" id="SB3-iz-G7M"/>
+                            <constraint firstItem="edg-hz-cwB" firstAttribute="top" secondItem="aBV-xk-M9F" secondAttribute="bottom" constant="133" id="Zk1-3z-Gft"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aBV-xk-M9F" secondAttribute="trailing" constant="92" id="dYF-MP-qAp"/>
+                            <constraint firstItem="M08-Ov-QIZ" firstAttribute="top" secondItem="1iX-Jo-MtK" secondAttribute="bottom" constant="47" id="i4n-UU-gfw"/>
+                            <constraint firstItem="ehS-eD-tXa" firstAttribute="centerX" secondItem="t6l-I6-MSh" secondAttribute="centerX" id="pfu-NB-A0W"/>
+                            <constraint firstItem="M08-Ov-QIZ" firstAttribute="centerX" secondItem="t6l-I6-MSh" secondAttribute="centerX" id="stn-FG-OnE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c11-px-x1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="345"/>
+        </scene>
+        <!--My Bio-->
+        <scene sceneID="HTE-in-9a2">
+            <objects>
+                <viewController title="My Bio" id="qVi-XE-9M6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jDn-vN-5xO"/>
+                        <viewControllerLayoutGuide type="bottom" id="hAn-Pl-YdH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Omq-cz-EdA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g39-On-thQ">
+                                <rect key="frame" x="20" y="93" width="560" height="499"/>
+                                <animations/>
+                                <mutableString key="text">A little bit about myself...
+
+Hi, welcome to my first app. My name is Franco and I live in New York City. I love innovation and find myself always creating new ideas. I enjoy running and going to the gym and love football. I also enjoy playing chess and believe it or not I'm a great fan of Marvel Comics, especially Spiderman who I believe is the coolest superhero. 
+
+About my professional life...
+
+I have vast experience working for a Fortune 500 company within the Financial and Payment Services Industry. Most recently with American Express I led the development of innovative internal capabilities to enhance the global business analytics.
+
+About my sports life...
+
+I also have over 20 years of experience in coaching football at various levels. I have college experience in the USA and have coached abroad both in Mexico and UK where I was part of the NFL Europe International Development program. Most recently I hellped the Pittsburgh Steelers in their fantasy camp held in Cancun last year.</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="g39-On-thQ" firstAttribute="height" secondItem="Omq-cz-EdA" secondAttribute="height" id="1SW-ex-hi3"/>
+                            <constraint firstItem="g39-On-thQ" firstAttribute="centerX" secondItem="Omq-cz-EdA" secondAttribute="centerX" id="OVB-Wd-Eus"/>
+                            <constraint firstItem="g39-On-thQ" firstAttribute="top" secondItem="jDn-vN-5xO" secondAttribute="bottom" constant="29" id="Qsy-gQ-dtc"/>
+                            <constraint firstItem="g39-On-thQ" firstAttribute="width" secondItem="Omq-cz-EdA" secondAttribute="width" id="drn-sx-Md2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFd-8A-KIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="1008"/>
+        </scene>
+        <!--My Goals-->
+        <scene sceneID="FH4-9A-MAu">
+            <objects>
+                <viewController title="My Goals" id="hcc-4y-hLV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fyy-ai-ubw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jeb-91-4Rl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Uk-AX-Fkb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="marvel.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7qi-SZ-hoA">
+                                <rect key="frame" x="47" y="416" width="456" height="172"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="steelers1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9r8-Bf-khX">
+                                <rect key="frame" x="41" y="237" width="468" height="171"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJV-za-gXZ">
+                                <rect key="frame" x="425" y="20" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXZ-EK-bi1">
+                                <rect key="frame" x="169" y="72" width="240" height="133"/>
+                                <animations/>
+                                <string key="text">&gt; Successfully Complete my MOB iOS Course
+&gt; Get involved in an exciting MOB App project
+&gt; Find a placement in a cool company </string>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HXZ-EK-bi1" firstAttribute="width" secondItem="9Uk-AX-Fkb" secondAttribute="width" id="6AQ-fw-bTh"/>
+                            <constraint firstItem="HXZ-EK-bi1" firstAttribute="top" secondItem="Fyy-ai-ubw" secondAttribute="bottom" constant="43" id="7Z1-sO-3kt"/>
+                            <constraint firstItem="9r8-Bf-khX" firstAttribute="centerX" secondItem="HXZ-EK-bi1" secondAttribute="centerX" id="8em-Mm-Lx2"/>
+                            <constraint firstItem="HXZ-EK-bi1" firstAttribute="centerX" secondItem="9Uk-AX-Fkb" secondAttribute="centerX" id="8tc-Ka-gCw"/>
+                            <constraint firstItem="9r8-Bf-khX" firstAttribute="top" secondItem="HXZ-EK-bi1" secondAttribute="bottom" constant="-3" id="RLZ-xV-ADj"/>
+                            <constraint firstItem="HXZ-EK-bi1" firstAttribute="top" secondItem="Fyy-ai-ubw" secondAttribute="bottom" constant="43" id="Yut-oZ-cXO"/>
+                            <constraint firstItem="7qi-SZ-hoA" firstAttribute="top" secondItem="9r8-Bf-khX" secondAttribute="bottom" constant="8" id="hoE-Qh-aL1"/>
+                            <constraint firstItem="7qi-SZ-hoA" firstAttribute="centerX" secondItem="9r8-Bf-khX" secondAttribute="centerX" id="wU5-L7-SCR"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Info" id="JPY-kt-BAu">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ju2-fH-BjX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2432" y="345"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="home">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ejl-O2-AMn">
+                                <rect key="frame" x="186" y="145" width="280" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="UnJ-Uj-r31"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lcQ-N4-gDw">
+                                <rect key="frame" x="252" y="219" width="120" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="UAL-Tq-CpU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23M-2M-lcO">
+                                <rect key="frame" x="263" y="322" width="75" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3SS-VH-83w" kind="show" id="7qF-AQ-xaT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ejl-O2-AMn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="81" id="Ad8-V3-d3x"/>
+                            <constraint firstItem="23M-2M-lcO" firstAttribute="centerX" secondItem="lcQ-N4-gDw" secondAttribute="centerX" id="CnN-Rm-0iF"/>
+                            <constraint firstItem="ejl-O2-AMn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ECS-A5-ZJZ"/>
+                            <constraint firstItem="lcQ-N4-gDw" firstAttribute="top" secondItem="ejl-O2-AMn" secondAttribute="bottom" constant="44" id="I8i-h9-GLZ"/>
+                            <constraint firstItem="lcQ-N4-gDw" firstAttribute="centerX" secondItem="ejl-O2-AMn" secondAttribute="centerX" id="fkN-qT-Htm"/>
+                            <constraint firstItem="23M-2M-lcO" firstAttribute="top" secondItem="lcQ-N4-gDw" secondAttribute="bottom" constant="73" id="tMl-bc-zbQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="29I-OC-0vf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="345"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dDv-J5-Ecs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Pj-rG-G2e" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gqt-ed-rIj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="e1I-AT-gxG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzO-EX-ooZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images.jpg" width="120" height="117"/>
+        <image name="marvel.jpeg" width="297" height="170"/>
+        <image name="steelers1.jpeg" width="225" height="225"/>
+    </resources>
+</document>
