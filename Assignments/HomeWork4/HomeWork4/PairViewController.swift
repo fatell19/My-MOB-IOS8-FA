@@ -80,3 +80,65 @@ class PairViewController: UIViewController, UITableViewDataSource, UITableViewDe
     */
 
 }
+
+// Correct way to do it!!!!!!!!
+
+//import UIKit
+//class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+//    
+//    @IBOutlet weak var keyTextField: UITextField!
+//    @IBOutlet weak var valueTextField: UITextField!
+//    @IBOutlet weak var tableView: UITableView!
+//    
+//    
+//    var key: String = ""
+//    
+//    var dictionary: [String : String] = [:]
+//    
+//    @IBAction func keyTextFieldPramaryActionTriggered(sender: UITextField) {
+//    }
+//    
+//    @IBAction func valueTextFieldPrimaryActionTriggered(sender: AnyObject) {
+//        
+//        if let keyTextFieldText = keyTextField.text,
+//            valueTextFieldText = valueTextField.text {
+//                
+//                dictionary[keyTextFieldText] = valueTextFieldText
+//                tableView.reloadData()
+//        }
+//        
+//    }
+//    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view, typically from a nib.
+//    }
+//    
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
+//    
+//    // MARK: Implement UITableviewDataSource
+//    
+//    
+//    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        
+//        return dictionary.count
+//    }
+//    
+//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        
+//        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+//        
+//        let key = Array(dictionary.keys)[indexPath.row]
+//        
+//        if let value = dictionary[key] {
+//            cell.textLabel?.text = key + " + " + value
+//        }
+//        
+//        return cell
+//    }
+//    
+//}
+
