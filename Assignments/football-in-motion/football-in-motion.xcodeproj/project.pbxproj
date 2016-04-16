@@ -10,6 +10,16 @@
 		CF600D221CBD7C7D000E15DF /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */; };
 		CF600D241CBD80AB000E15DF /* Battery Ball Field.png in Resources */ = {isa = PBXBuildFile; fileRef = CF600D231CBD80AB000E15DF /* Battery Ball Field.png */; };
 		CF600D261CBD80BA000E15DF /* Pier 40.png in Resources */ = {isa = PBXBuildFile; fileRef = CF600D251CBD80BA000E15DF /* Pier 40.png */; };
+		CF6839891CC058F4000B3639 /* AboutInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839881CC058F4000B3639 /* AboutInfoViewController.swift */; };
+		CF68398B1CC05B9F000B3639 /* Pier40ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68398A1CC05B9F000B3639 /* Pier40ViewController.swift */; };
+		CF68398D1CC05BD3000B3639 /* BatteryParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68398C1CC05BD3000B3639 /* BatteryParkViewController.swift */; };
+		CF68398F1CC095FE000B3639 /* WebLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68398E1CC095FE000B3639 /* WebLinksViewController.swift */; };
+		CF6839911CC0963E000B3639 /* WebHistortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839901CC0963E000B3639 /* WebHistortViewController.swift */; };
+		CF6839971CC192FF000B3639 /* logout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839921CC192FF000B3639 /* logout.jpg */; };
+		CF6839981CC192FF000B3639 /* addSession.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839931CC192FF000B3639 /* addSession.jpg */; };
+		CF6839991CC192FF000B3639 /* othertools.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839941CC192FF000B3639 /* othertools.png */; };
+		CF68399A1CC192FF000B3639 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839951CC192FF000B3639 /* profile.png */; };
+		CF68399B1CC192FF000B3639 /* appointmens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839961CC192FF000B3639 /* appointmens.jpg */; };
 		CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8F092E1CB9C1200076E12C /* franco.jpg */; };
 		CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00621CB700FE00BD5003 /* AppDelegate.swift */; };
 		CF9E00651CB700FE00BD5003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00641CB700FE00BD5003 /* MainViewController.swift */; };
@@ -37,12 +47,26 @@
 		CFA09ED21CB9C7DE00F3367D /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA09ED11CB9C7DE00F3367D /* close.png */; };
 		CFA09ED41CBC1C9500F3367D /* price2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFA09ED31CBC1C9500F3367D /* price2.jpeg */; };
 		CFA09ED61CBC1CCA00F3367D /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA09ED51CBC1CCA00F3367D /* info2.png */; };
+		CFD099AF1CBDCB19001226F7 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */; };
+		CFD099B11CBDCB48001226F7 /* MySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */; };
+		CFD099B31CBDCB74001226F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B21CBDCB74001226F7 /* LoginViewController.swift */; };
+		CFD099B51CBDCBA2001226F7 /* ControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		CF600D231CBD80AB000E15DF /* Battery Ball Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Battery Ball Field.png"; sourceTree = "<group>"; };
 		CF600D251CBD80BA000E15DF /* Pier 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pier 40.png"; sourceTree = "<group>"; };
+		CF6839881CC058F4000B3639 /* AboutInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInfoViewController.swift; sourceTree = "<group>"; };
+		CF68398A1CC05B9F000B3639 /* Pier40ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pier40ViewController.swift; sourceTree = "<group>"; };
+		CF68398C1CC05BD3000B3639 /* BatteryParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryParkViewController.swift; sourceTree = "<group>"; };
+		CF68398E1CC095FE000B3639 /* WebLinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebLinksViewController.swift; sourceTree = "<group>"; };
+		CF6839901CC0963E000B3639 /* WebHistortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebHistortViewController.swift; sourceTree = "<group>"; };
+		CF6839921CC192FF000B3639 /* logout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logout.jpg; sourceTree = "<group>"; };
+		CF6839931CC192FF000B3639 /* addSession.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addSession.jpg; sourceTree = "<group>"; };
+		CF6839941CC192FF000B3639 /* othertools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = othertools.png; sourceTree = "<group>"; };
+		CF6839951CC192FF000B3639 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		CF6839961CC192FF000B3639 /* appointmens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appointmens.jpg; sourceTree = "<group>"; };
 		CF8F092E1CB9C1200076E12C /* franco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = franco.jpg; sourceTree = "<group>"; };
 		CF9E005F1CB700FE00BD5003 /* football-in-motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-in-motion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E00621CB700FE00BD5003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +96,10 @@
 		CFA09ED11CB9C7DE00F3367D /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		CFA09ED31CBC1C9500F3367D /* price2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = price2.jpeg; sourceTree = "<group>"; };
 		CFA09ED51CBC1CCA00F3367D /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info2.png; sourceTree = "<group>"; };
+		CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySessionsViewController.swift; sourceTree = "<group>"; };
+		CFD099B21CBDCB74001226F7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +136,11 @@
 				CF9E00981CB9A60C00BD5003 /* IMG_1663.jpg */,
 				CF600D231CBD80AB000E15DF /* Battery Ball Field.png */,
 				CF600D251CBD80BA000E15DF /* Pier 40.png */,
+				CF6839921CC192FF000B3639 /* logout.jpg */,
+				CF6839931CC192FF000B3639 /* addSession.jpg */,
+				CF6839941CC192FF000B3639 /* othertools.png */,
+				CF6839951CC192FF000B3639 /* profile.png */,
+				CF6839961CC192FF000B3639 /* appointmens.jpg */,
 				CFA09ED31CBC1C9500F3367D /* price2.jpeg */,
 				CFA09ED11CB9C7DE00F3367D /* close.png */,
 				CFA09ED51CBC1CCA00F3367D /* info2.png */,
@@ -130,6 +163,15 @@
 				CF9E00621CB700FE00BD5003 /* AppDelegate.swift */,
 				CF9E00641CB700FE00BD5003 /* MainViewController.swift */,
 				CF9E00661CB700FE00BD5003 /* Main.storyboard */,
+				CF6839901CC0963E000B3639 /* WebHistortViewController.swift */,
+				CF68398E1CC095FE000B3639 /* WebLinksViewController.swift */,
+				CF68398C1CC05BD3000B3639 /* BatteryParkViewController.swift */,
+				CF68398A1CC05B9F000B3639 /* Pier40ViewController.swift */,
+				CF6839881CC058F4000B3639 /* AboutInfoViewController.swift */,
+				CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */,
+				CFD099B21CBDCB74001226F7 /* LoginViewController.swift */,
+				CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */,
+				CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */,
 				CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */,
 				CF9E00781CB709D100BD5003 /* FirstPageViewController.swift */,
 				CF9E00691CB700FE00BD5003 /* Assets.xcassets */,
@@ -198,22 +240,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF9E00971CB9A3D700BD5003 /* WR1.jpg in Resources */,
+				CF6839991CC192FF000B3639 /* othertools.png in Resources */,
 				CF9E00911CB9A3A100BD5003 /* qb.JPG in Resources */,
 				CFA09ED61CBC1CCA00F3367D /* info2.png in Resources */,
 				CF9E00921CB9A3A100BD5003 /* block.png in Resources */,
+				CF6839971CC192FF000B3639 /* logout.jpg in Resources */,
 				CF9E00851CB992FE00BD5003 /* web.png in Resources */,
 				CF9E00831CB992FE00BD5003 /* helmet.png in Resources */,
 				CF9E006D1CB700FE00BD5003 /* LaunchScreen.storyboard in Resources */,
+				CF68399B1CC192FF000B3639 /* appointmens.jpg in Resources */,
 				CF600D241CBD80AB000E15DF /* Battery Ball Field.png in Resources */,
 				CF9E00931CB9A3A100BD5003 /* rb.png in Resources */,
 				CF9E008F1CB9A3A100BD5003 /* st1.png in Resources */,
 				CF9E00941CB9A3A100BD5003 /* group1.JPG in Resources */,
+				CF68399A1CC192FF000B3639 /* profile.png in Resources */,
 				CF9E00901CB9A3A100BD5003 /* group2.png in Resources */,
 				CF9E006A1CB700FE00BD5003 /* Assets.xcassets in Resources */,
 				CF9E00951CB9A3A100BD5003 /* wr.png in Resources */,
 				CF9E00821CB992FE00BD5003 /* home.ico in Resources */,
 				CF9E00871CB992FE00BD5003 /* info.jpeg in Resources */,
 				CF9E00861CB992FE00BD5003 /* price.png in Resources */,
+				CF6839981CC192FF000B3639 /* addSession.jpg in Resources */,
 				CF9E00841CB992FE00BD5003 /* football.png in Resources */,
 				CFA09ED21CB9C7DE00F3367D /* close.png in Resources */,
 				CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */,
@@ -233,9 +280,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF68398B1CC05B9F000B3639 /* Pier40ViewController.swift in Sources */,
+				CF68398F1CC095FE000B3639 /* WebLinksViewController.swift in Sources */,
+				CFD099B31CBDCB74001226F7 /* LoginViewController.swift in Sources */,
+				CF6839891CC058F4000B3639 /* AboutInfoViewController.swift in Sources */,
 				CF9E00791CB709D100BD5003 /* FirstPageViewController.swift in Sources */,
 				CF9E00651CB700FE00BD5003 /* MainViewController.swift in Sources */,
+				CF68398D1CC05BD3000B3639 /* BatteryParkViewController.swift in Sources */,
 				CF600D221CBD7C7D000E15DF /* SeventhViewController.swift in Sources */,
+				CFD099B11CBDCB48001226F7 /* MySessionsViewController.swift in Sources */,
+				CF6839911CC0963E000B3639 /* WebHistortViewController.swift in Sources */,
+				CFD099AF1CBDCB19001226F7 /* BookingViewController.swift in Sources */,
+				CFD099B51CBDCBA2001226F7 /* ControlPanelViewController.swift in Sources */,
 				CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
