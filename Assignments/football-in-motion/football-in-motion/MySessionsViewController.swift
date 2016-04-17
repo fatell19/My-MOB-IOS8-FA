@@ -8,28 +8,62 @@
 
 import UIKit
 
-class MySessionsViewController: UIViewController {
+class MySessionsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var sessionBar: UISegmentedControl!
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        tableView.dataSource = self
+        tableView.delegate = self
+        //        loadHistory()
+        tableView.reloadData()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    var session: [DetailedSession] = []
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("bookings", forIndexPath: indexPath)
+        
+        cell.textLabel?.text = session[indexPath.row].neatDisplay()
+        
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return session.count
+    }
+    
+    /*    func getUrlForDocument(documentName: String) -> NSURL{
+     let fileMgr = NSFileManager.defaultManager()
+     let urls = fileMgr.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
+     let directory = urls.first!
+     
+     return directory.URLByAppendingPathComponent(documentName, isDirectory: false)
+     }
+     
+     func saveHistory() {
+     let arrayToSave = session as NSArray
+     arrayToSave.writeToURL(getUrlForDocument("session.plist"), atomically: true)
+     }
+     
+     func loadHistory() {
+     let arrayToRead = NSArray(contentsOfURL: getUrlForDocument("session.plist"))
+     
+     self.session = arrayToRead as! [DetailedSession]
+     
+     tableView.reloadData()
+     }
+     
+     func showNewArray() {
+     saveHistory()
+     loadHistory()
+     }
+     */
 
 }

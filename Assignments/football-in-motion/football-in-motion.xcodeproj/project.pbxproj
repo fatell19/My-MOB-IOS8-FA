@@ -20,6 +20,14 @@
 		CF6839991CC192FF000B3639 /* othertools.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839941CC192FF000B3639 /* othertools.png */; };
 		CF68399A1CC192FF000B3639 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839951CC192FF000B3639 /* profile.png */; };
 		CF68399B1CC192FF000B3639 /* appointmens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839961CC192FF000B3639 /* appointmens.jpg */; };
+		CF6839BD1CC3ED04000B3639 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839BC1CC3ED04000B3639 /* SessionView.swift */; };
+		CF6839C31CC404B8000B3639 /* SpecialTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */; };
+		CF6839C51CC40570000B3639 /* TryoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839C41CC40570000B3639 /* TryoutsViewController.swift */; };
+		CF6839C71CC405DE000B3639 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839C61CC405DE000B3639 /* SkillsViewController.swift */; };
+		CF6839C91CC40BB4000B3639 /* RatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6839C81CC40BB4000B3639 /* RatesViewController.swift */; };
+		CF6839CB1CC4111F000B3639 /* home2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CA1CC4111F000B3639 /* home2.jpeg */; };
+		CF6839CD1CC41127000B3639 /* login.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CC1CC41127000B3639 /* login.jpeg */; };
+		CF6839CF1CC4222D000B3639 /* in.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CE1CC4222D000B3639 /* in.png */; };
 		CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8F092E1CB9C1200076E12C /* franco.jpg */; };
 		CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00621CB700FE00BD5003 /* AppDelegate.swift */; };
 		CF9E00651CB700FE00BD5003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00641CB700FE00BD5003 /* MainViewController.swift */; };
@@ -67,6 +75,14 @@
 		CF6839941CC192FF000B3639 /* othertools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = othertools.png; sourceTree = "<group>"; };
 		CF6839951CC192FF000B3639 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		CF6839961CC192FF000B3639 /* appointmens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appointmens.jpg; sourceTree = "<group>"; };
+		CF6839BC1CC3ED04000B3639 /* SessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTeamsViewController.swift; sourceTree = "<group>"; };
+		CF6839C41CC40570000B3639 /* TryoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryoutsViewController.swift; sourceTree = "<group>"; };
+		CF6839C61CC405DE000B3639 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		CF6839C81CC40BB4000B3639 /* RatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
+		CF6839CA1CC4111F000B3639 /* home2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home2.jpeg; sourceTree = "<group>"; };
+		CF6839CC1CC41127000B3639 /* login.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpeg; sourceTree = "<group>"; };
+		CF6839CE1CC4222D000B3639 /* in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = in.png; sourceTree = "<group>"; };
 		CF8F092E1CB9C1200076E12C /* franco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = franco.jpg; sourceTree = "<group>"; };
 		CF9E005F1CB700FE00BD5003 /* football-in-motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-in-motion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E00621CB700FE00BD5003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +132,7 @@
 		CF9E00561CB700FE00BD5003 = {
 			isa = PBXGroup;
 			children = (
+				CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */,
 				CF9E00611CB700FE00BD5003 /* football-in-motion */,
 				CF9E00601CB700FE00BD5003 /* Products */,
 			);
@@ -137,6 +154,7 @@
 				CF600D231CBD80AB000E15DF /* Battery Ball Field.png */,
 				CF600D251CBD80BA000E15DF /* Pier 40.png */,
 				CF6839921CC192FF000B3639 /* logout.jpg */,
+				CF6839CE1CC4222D000B3639 /* in.png */,
 				CF6839931CC192FF000B3639 /* addSession.jpg */,
 				CF6839941CC192FF000B3639 /* othertools.png */,
 				CF6839951CC192FF000B3639 /* profile.png */,
@@ -157,12 +175,18 @@
 				CF9E007C1CB992FD00BD5003 /* home.ico */,
 				CF9E007D1CB992FD00BD5003 /* helmet.png */,
 				CF9E007E1CB992FD00BD5003 /* football.png */,
+				CF6839CA1CC4111F000B3639 /* home2.jpeg */,
+				CF6839CC1CC41127000B3639 /* login.jpeg */,
 				CF9E007F1CB992FD00BD5003 /* web.png */,
 				CF9E00801CB992FD00BD5003 /* price.png */,
 				CF9E00811CB992FD00BD5003 /* info.jpeg */,
 				CF9E00621CB700FE00BD5003 /* AppDelegate.swift */,
 				CF9E00641CB700FE00BD5003 /* MainViewController.swift */,
 				CF9E00661CB700FE00BD5003 /* Main.storyboard */,
+				CF6839C81CC40BB4000B3639 /* RatesViewController.swift */,
+				CF6839C61CC405DE000B3639 /* SkillsViewController.swift */,
+				CF6839C41CC40570000B3639 /* TryoutsViewController.swift */,
+				CF6839BC1CC3ED04000B3639 /* SessionView.swift */,
 				CF6839901CC0963E000B3639 /* WebHistortViewController.swift */,
 				CF68398E1CC095FE000B3639 /* WebLinksViewController.swift */,
 				CF68398C1CC05BD3000B3639 /* BatteryParkViewController.swift */,
@@ -253,7 +277,9 @@
 				CF9E00931CB9A3A100BD5003 /* rb.png in Resources */,
 				CF9E008F1CB9A3A100BD5003 /* st1.png in Resources */,
 				CF9E00941CB9A3A100BD5003 /* group1.JPG in Resources */,
+				CF6839CD1CC41127000B3639 /* login.jpeg in Resources */,
 				CF68399A1CC192FF000B3639 /* profile.png in Resources */,
+				CF6839CF1CC4222D000B3639 /* in.png in Resources */,
 				CF9E00901CB9A3A100BD5003 /* group2.png in Resources */,
 				CF9E006A1CB700FE00BD5003 /* Assets.xcassets in Resources */,
 				CF9E00951CB9A3A100BD5003 /* wr.png in Resources */,
@@ -264,6 +290,7 @@
 				CF9E00841CB992FE00BD5003 /* football.png in Resources */,
 				CFA09ED21CB9C7DE00F3367D /* close.png in Resources */,
 				CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */,
+				CF6839CB1CC4111F000B3639 /* home2.jpeg in Resources */,
 				CF600D261CBD80BA000E15DF /* Pier 40.png in Resources */,
 				CFA09ED41CBC1C9500F3367D /* price2.jpeg in Resources */,
 				CF9E00991CB9A60C00BD5003 /* IMG_1663.jpg in Resources */,
@@ -285,14 +312,19 @@
 				CFD099B31CBDCB74001226F7 /* LoginViewController.swift in Sources */,
 				CF6839891CC058F4000B3639 /* AboutInfoViewController.swift in Sources */,
 				CF9E00791CB709D100BD5003 /* FirstPageViewController.swift in Sources */,
+				CF6839C31CC404B8000B3639 /* SpecialTeamsViewController.swift in Sources */,
 				CF9E00651CB700FE00BD5003 /* MainViewController.swift in Sources */,
 				CF68398D1CC05BD3000B3639 /* BatteryParkViewController.swift in Sources */,
+				CF6839BD1CC3ED04000B3639 /* SessionView.swift in Sources */,
 				CF600D221CBD7C7D000E15DF /* SeventhViewController.swift in Sources */,
 				CFD099B11CBDCB48001226F7 /* MySessionsViewController.swift in Sources */,
 				CF6839911CC0963E000B3639 /* WebHistortViewController.swift in Sources */,
 				CFD099AF1CBDCB19001226F7 /* BookingViewController.swift in Sources */,
 				CFD099B51CBDCBA2001226F7 /* ControlPanelViewController.swift in Sources */,
 				CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */,
+				CF6839C71CC405DE000B3639 /* SkillsViewController.swift in Sources */,
+				CF6839C91CC40BB4000B3639 /* RatesViewController.swift in Sources */,
+				CF6839C51CC40570000B3639 /* TryoutsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
