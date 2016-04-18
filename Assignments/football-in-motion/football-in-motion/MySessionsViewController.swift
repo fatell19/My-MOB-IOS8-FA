@@ -39,31 +39,27 @@ class MySessionsViewController: UIViewController, UITableViewDataSource, UITable
         return session.count
     }
     
-    /*    func getUrlForDocument(documentName: String) -> NSURL{
-     let fileMgr = NSFileManager.defaultManager()
-     let urls = fileMgr.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-     let directory = urls.first!
-     
-     return directory.URLByAppendingPathComponent(documentName, isDirectory: false)
-     }
-     
-     func saveHistory() {
-     let arrayToSave = session as NSArray
-     arrayToSave.writeToURL(getUrlForDocument("session.plist"), atomically: true)
-     }
-     
-     func loadHistory() {
-     let arrayToRead = NSArray(contentsOfURL: getUrlForDocument("session.plist"))
-     
-     self.session = arrayToRead as! [DetailedSession]
-     
-     tableView.reloadData()
-     }
-     
-     func showNewArray() {
-     saveHistory()
-     loadHistory()
-     }
-     */
+//        func getUrlForDocument(documentName: String) -> NSURL{
+//     let fileMgr = NSFileManager.defaultManager()
+//     let urls = fileMgr.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
+//     let directory = urls.first!
+//     
+//     return directory.URLByAppendingPathComponent(documentName, isDirectory: false)
+//     }
+//     
+//     @IBAction func saveHistory() {
+//     let arrayToSave = session as NSArray
+//     arrayToSave.writeToURL(getUrlForDocument("session.plist"), atomically: true)
+//     }
+//     
+//     @IBAction func loadHistory() {
+//     let arrayToRead = NSArray(contentsOfURL: getUrlForDocument("session.plist"))
+//     
+//     self.session = arrayToRead as! [DetailedSession]
+//     
+//     tableView.reloadData()
+//     }
+    
+    
 
 }

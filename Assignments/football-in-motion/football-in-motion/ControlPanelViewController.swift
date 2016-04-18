@@ -21,9 +21,10 @@ class ControlPanelViewController: UIViewController {
     @IBOutlet weak var logout: UIButton!
     @IBOutlet weak var logLabel: UILabel!
     @IBOutlet weak var logStatus: UILabel!
+    @IBOutlet weak var inOut: UIButton!
     
     var status = 1
-    var image1 = UIImage(named: "in.png")
+    var image1 = UIImage(named: "login2.jpeg")
     var image2 = UIImage(named: "logout.jpg")
     
     override func viewDidLoad() {

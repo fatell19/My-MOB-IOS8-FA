@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class BookingViewController: UIViewController {
+class BookingViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var dateChosen: UILabel!
@@ -73,6 +74,7 @@ class BookingViewController: UIViewController {
         dateInTable()
         session[date] = DetailedSession(dateOfSession: date, coachOfSession: "Coach Franco", sessionApproval: "(Pending)")
         
+        sendEmail()
         configureDatePicker()
         
     }
@@ -86,5 +88,35 @@ class BookingViewController: UIViewController {
     func dateInTable() {
         date = dateChosen.text!
     }
+    
+    func sendEmail() {
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.presentViewController(mailComposeViewController, animated: true, completion: nil)
+        } else {
+            self.showSendMailErrorAlert()
+        }
+    }
+    
+    func configuredMailComposeViewController() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
+        mailComposerVC.setToRecipients(["coach_franco.arellanos@yahoo.com "])
+        mailComposerVC.setSubject("Booking Confirmation")
+        mailComposerVC.setMessageBody("I would like to book a session on \(dateChosen.text). Are you availabe?", isHTML: false)
+        
+        return mailComposerVC
+    }
+    
+    func showSendMailErrorAlert() {
+        let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
+        sendMailErrorAlert.show()
+    }
+    
+    // MARK: MFMailComposeViewControllerDelegate Method
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        controller.dismissViewControllerAnimated(true, completion: nil)
+    }
+
 
 }

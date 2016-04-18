@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8AAC64608CF6317F76A030 /* Pods_football_in_motion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBC8361D9C7E903429EEB8 /* Pods_football_in_motion.framework */; };
+		CF29B7DA1CC44FFD0091B705 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = CF29B7D91CC44FFD0091B705 /* edit.png */; };
+		CF29B7DC1CC4508B0091B705 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = CF29B7DB1CC4508B0091B705 /* save.png */; };
+		CF29B7E01CC453C30091B705 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29B7DF1CC453C30091B705 /* MyProfileViewController.swift */; };
+		CF57E0D81CC54AD500C35C08 /* twitter2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0D51CC54AD500C35C08 /* twitter2.png */; };
+		CF57E0D91CC54AD500C35C08 /* facebook2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0D61CC54AD500C35C08 /* facebook2.png */; };
+		CF57E0DA1CC54AD500C35C08 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0D71CC54AD500C35C08 /* google.png */; };
+		CF57E0DC1CC555F100C35C08 /* google2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0DB1CC555F100C35C08 /* google2.png */; };
+		CF57E0E21CC576CF00C35C08 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57E0E11CC576CF00C35C08 /* RegistrationViewController.swift */; };
+		CF57E0E41CC5826400C35C08 /* profile2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0E31CC5826400C35C08 /* profile2.png */; };
+		CF57E0E71CC5830D00C35C08 /* profile4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0E51CC5830D00C35C08 /* profile4.jpg */; };
+		CF57E0E81CC5830D00C35C08 /* profile3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0E61CC5830D00C35C08 /* profile3.png */; };
+		CF57E0EA1CC583A800C35C08 /* weblinks.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0E91CC583A800C35C08 /* weblinks.jpeg */; };
+		CF57E0EC1CC5853A00C35C08 /* login2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0EB1CC5853A00C35C08 /* login2.jpeg */; };
+		CF57E0EE1CC5876E00C35C08 /* out.png in Resources */ = {isa = PBXBuildFile; fileRef = CF57E0ED1CC5876E00C35C08 /* out.png */; };
 		CF600D221CBD7C7D000E15DF /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */; };
 		CF600D241CBD80AB000E15DF /* Battery Ball Field.png in Resources */ = {isa = PBXBuildFile; fileRef = CF600D231CBD80AB000E15DF /* Battery Ball Field.png */; };
 		CF600D261CBD80BA000E15DF /* Pier 40.png in Resources */ = {isa = PBXBuildFile; fileRef = CF600D251CBD80BA000E15DF /* Pier 40.png */; };
@@ -28,6 +43,7 @@
 		CF6839CB1CC4111F000B3639 /* home2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CA1CC4111F000B3639 /* home2.jpeg */; };
 		CF6839CD1CC41127000B3639 /* login.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CC1CC41127000B3639 /* login.jpeg */; };
 		CF6839CF1CC4222D000B3639 /* in.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6839CE1CC4222D000B3639 /* in.png */; };
+		CF6839F11CC44A2C000B3639 /* in_construction3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6839F01CC44A2C000B3639 /* in_construction3.jpg */; };
 		CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8F092E1CB9C1200076E12C /* franco.jpg */; };
 		CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00621CB700FE00BD5003 /* AppDelegate.swift */; };
 		CF9E00651CB700FE00BD5003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E00641CB700FE00BD5003 /* MainViewController.swift */; };
@@ -57,11 +73,27 @@
 		CFA09ED61CBC1CCA00F3367D /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA09ED51CBC1CCA00F3367D /* info2.png */; };
 		CFD099AF1CBDCB19001226F7 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */; };
 		CFD099B11CBDCB48001226F7 /* MySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */; };
-		CFD099B31CBDCB74001226F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B21CBDCB74001226F7 /* LoginViewController.swift */; };
 		CFD099B51CBDCBA2001226F7 /* ControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30C274490921F4CD6808D21A /* Pods-football-in-motion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-football-in-motion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-football-in-motion/Pods-football-in-motion.debug.xcconfig"; sourceTree = "<group>"; };
+		3CDBC8361D9C7E903429EEB8 /* Pods_football_in_motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_football_in_motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B983B4D275AD2919AB6FC7CD /* Pods-football-in-motion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-football-in-motion.release.xcconfig"; path = "Pods/Target Support Files/Pods-football-in-motion/Pods-football-in-motion.release.xcconfig"; sourceTree = "<group>"; };
+		CF29B7D91CC44FFD0091B705 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		CF29B7DB1CC4508B0091B705 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		CF29B7DF1CC453C30091B705 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyProfileViewController.swift; path = ../MyProfileViewController.swift; sourceTree = "<group>"; };
+		CF57E0D51CC54AD500C35C08 /* twitter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter2.png; sourceTree = "<group>"; };
+		CF57E0D61CC54AD500C35C08 /* facebook2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook2.png; sourceTree = "<group>"; };
+		CF57E0D71CC54AD500C35C08 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		CF57E0DB1CC555F100C35C08 /* google2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google2.png; sourceTree = "<group>"; };
+		CF57E0E11CC576CF00C35C08 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CF57E0E31CC5826400C35C08 /* profile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile2.png; sourceTree = "<group>"; };
+		CF57E0E51CC5830D00C35C08 /* profile4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile4.jpg; sourceTree = "<group>"; };
+		CF57E0E61CC5830D00C35C08 /* profile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile3.png; sourceTree = "<group>"; };
+		CF57E0E91CC583A800C35C08 /* weblinks.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weblinks.jpeg; sourceTree = "<group>"; };
+		CF57E0EB1CC5853A00C35C08 /* login2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login2.jpeg; sourceTree = "<group>"; };
+		CF57E0ED1CC5876E00C35C08 /* out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = out.png; sourceTree = "<group>"; };
 		CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		CF600D231CBD80AB000E15DF /* Battery Ball Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Battery Ball Field.png"; sourceTree = "<group>"; };
 		CF600D251CBD80BA000E15DF /* Pier 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pier 40.png"; sourceTree = "<group>"; };
@@ -76,13 +108,14 @@
 		CF6839951CC192FF000B3639 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		CF6839961CC192FF000B3639 /* appointmens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appointmens.jpg; sourceTree = "<group>"; };
 		CF6839BC1CC3ED04000B3639 /* SessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
-		CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTeamsViewController.swift; sourceTree = "<group>"; };
+		CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialTeamsViewController.swift; path = ../SpecialTeamsViewController.swift; sourceTree = "<group>"; };
 		CF6839C41CC40570000B3639 /* TryoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryoutsViewController.swift; sourceTree = "<group>"; };
 		CF6839C61CC405DE000B3639 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		CF6839C81CC40BB4000B3639 /* RatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
 		CF6839CA1CC4111F000B3639 /* home2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home2.jpeg; sourceTree = "<group>"; };
 		CF6839CC1CC41127000B3639 /* login.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpeg; sourceTree = "<group>"; };
 		CF6839CE1CC4222D000B3639 /* in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = in.png; sourceTree = "<group>"; };
+		CF6839F01CC44A2C000B3639 /* in_construction3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = in_construction3.jpg; sourceTree = "<group>"; };
 		CF8F092E1CB9C1200076E12C /* franco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = franco.jpg; sourceTree = "<group>"; };
 		CF9E005F1CB700FE00BD5003 /* football-in-motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-in-motion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E00621CB700FE00BD5003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,7 +147,6 @@
 		CFA09ED51CBC1CCA00F3367D /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info2.png; sourceTree = "<group>"; };
 		CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySessionsViewController.swift; sourceTree = "<group>"; };
-		CFD099B21CBDCB74001226F7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,18 +155,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8AAC64608CF6317F76A030 /* Pods_football_in_motion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CF4666B0F1DB5212927A670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBC8361D9C7E903429EEB8 /* Pods_football_in_motion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF9E00561CB700FE00BD5003 = {
 			isa = PBXGroup;
 			children = (
-				CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */,
 				CF9E00611CB700FE00BD5003 /* football-in-motion */,
 				CF9E00601CB700FE00BD5003 /* Products */,
+				EC5978AC743501ED5494B341 /* Pods */,
+				4CF4666B0F1DB5212927A670 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,16 +204,29 @@
 				CFA09ED31CBC1C9500F3367D /* price2.jpeg */,
 				CFA09ED11CB9C7DE00F3367D /* close.png */,
 				CFA09ED51CBC1CCA00F3367D /* info2.png */,
+				CF57E0D51CC54AD500C35C08 /* twitter2.png */,
+				CF57E0D61CC54AD500C35C08 /* facebook2.png */,
+				CF57E0D71CC54AD500C35C08 /* google.png */,
 				CFA09ECF1CB9C6D200F3367D /* face.png */,
 				CF8F092E1CB9C1200076E12C /* franco.jpg */,
 				CF9E00881CB9A3A100BD5003 /* st1.png */,
+				CF57E0EB1CC5853A00C35C08 /* login2.jpeg */,
+				CF29B7D91CC44FFD0091B705 /* edit.png */,
 				CF9E00891CB9A3A100BD5003 /* group2.png */,
+				CF57E0ED1CC5876E00C35C08 /* out.png */,
 				CF9E008A1CB9A3A100BD5003 /* qb.JPG */,
 				CF9E008B1CB9A3A100BD5003 /* block.png */,
+				CF29B7DB1CC4508B0091B705 /* save.png */,
+				CF6839F01CC44A2C000B3639 /* in_construction3.jpg */,
 				CF9E008C1CB9A3A100BD5003 /* rb.png */,
+				CF57E0DB1CC555F100C35C08 /* google2.png */,
 				CF9E008D1CB9A3A100BD5003 /* group1.JPG */,
 				CF9E008E1CB9A3A100BD5003 /* wr.png */,
 				CF9E00961CB9A3D700BD5003 /* WR1.jpg */,
+				CF57E0E91CC583A800C35C08 /* weblinks.jpeg */,
+				CF57E0E31CC5826400C35C08 /* profile2.png */,
+				CF57E0E51CC5830D00C35C08 /* profile4.jpg */,
+				CF57E0E61CC5830D00C35C08 /* profile3.png */,
 				CF9E007C1CB992FD00BD5003 /* home.ico */,
 				CF9E007D1CB992FD00BD5003 /* helmet.png */,
 				CF9E007E1CB992FD00BD5003 /* football.png */,
@@ -180,9 +235,12 @@
 				CF9E007F1CB992FD00BD5003 /* web.png */,
 				CF9E00801CB992FD00BD5003 /* price.png */,
 				CF9E00811CB992FD00BD5003 /* info.jpeg */,
-				CF9E00621CB700FE00BD5003 /* AppDelegate.swift */,
-				CF9E00641CB700FE00BD5003 /* MainViewController.swift */,
 				CF9E00661CB700FE00BD5003 /* Main.storyboard */,
+				CF57E0E11CC576CF00C35C08 /* RegistrationViewController.swift */,
+				CF9E00621CB700FE00BD5003 /* AppDelegate.swift */,
+				CF29B7DF1CC453C30091B705 /* MyProfileViewController.swift */,
+				CF6839C21CC404B8000B3639 /* SpecialTeamsViewController.swift */,
+				CF9E00641CB700FE00BD5003 /* MainViewController.swift */,
 				CF6839C81CC40BB4000B3639 /* RatesViewController.swift */,
 				CF6839C61CC405DE000B3639 /* SkillsViewController.swift */,
 				CF6839C41CC40570000B3639 /* TryoutsViewController.swift */,
@@ -193,7 +251,6 @@
 				CF68398A1CC05B9F000B3639 /* Pier40ViewController.swift */,
 				CF6839881CC058F4000B3639 /* AboutInfoViewController.swift */,
 				CFD099B41CBDCBA2001226F7 /* ControlPanelViewController.swift */,
-				CFD099B21CBDCB74001226F7 /* LoginViewController.swift */,
 				CFD099B01CBDCB48001226F7 /* MySessionsViewController.swift */,
 				CFD099AE1CBDCB19001226F7 /* BookingViewController.swift */,
 				CF600D211CBD7C7D000E15DF /* SeventhViewController.swift */,
@@ -205,6 +262,15 @@
 			path = "football-in-motion";
 			sourceTree = "<group>";
 		};
+		EC5978AC743501ED5494B341 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C274490921F4CD6808D21A /* Pods-football-in-motion.debug.xcconfig */,
+				B983B4D275AD2919AB6FC7CD /* Pods-football-in-motion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF9E00711CB700FE00BD5003 /* Build configuration list for PBXNativeTarget "football-in-motion" */;
 			buildPhases = (
+				C9A439EF191C14590FD8243C /* Check Pods Manifest.lock */,
 				CF9E005B1CB700FE00BD5003 /* Sources */,
 				CF9E005C1CB700FE00BD5003 /* Frameworks */,
 				CF9E005D1CB700FE00BD5003 /* Resources */,
+				EDA34F3950DB558545A834BD /* Embed Pods Frameworks */,
+				73A0E87077DE8099212CC033 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +306,7 @@
 				TargetAttributes = {
 					CF9E005E1CB700FE00BD5003 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U64MU978JE;
 					};
 				};
 			};
@@ -263,22 +333,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF57E0EC1CC5853A00C35C08 /* login2.jpeg in Resources */,
 				CF9E00971CB9A3D700BD5003 /* WR1.jpg in Resources */,
 				CF6839991CC192FF000B3639 /* othertools.png in Resources */,
 				CF9E00911CB9A3A100BD5003 /* qb.JPG in Resources */,
 				CFA09ED61CBC1CCA00F3367D /* info2.png in Resources */,
 				CF9E00921CB9A3A100BD5003 /* block.png in Resources */,
+				CF57E0EA1CC583A800C35C08 /* weblinks.jpeg in Resources */,
 				CF6839971CC192FF000B3639 /* logout.jpg in Resources */,
 				CF9E00851CB992FE00BD5003 /* web.png in Resources */,
 				CF9E00831CB992FE00BD5003 /* helmet.png in Resources */,
+				CF57E0D81CC54AD500C35C08 /* twitter2.png in Resources */,
 				CF9E006D1CB700FE00BD5003 /* LaunchScreen.storyboard in Resources */,
+				CF6839F11CC44A2C000B3639 /* in_construction3.jpg in Resources */,
 				CF68399B1CC192FF000B3639 /* appointmens.jpg in Resources */,
+				CF57E0E41CC5826400C35C08 /* profile2.png in Resources */,
 				CF600D241CBD80AB000E15DF /* Battery Ball Field.png in Resources */,
 				CF9E00931CB9A3A100BD5003 /* rb.png in Resources */,
+				CF57E0E71CC5830D00C35C08 /* profile4.jpg in Resources */,
 				CF9E008F1CB9A3A100BD5003 /* st1.png in Resources */,
 				CF9E00941CB9A3A100BD5003 /* group1.JPG in Resources */,
 				CF6839CD1CC41127000B3639 /* login.jpeg in Resources */,
+				CF57E0EE1CC5876E00C35C08 /* out.png in Resources */,
 				CF68399A1CC192FF000B3639 /* profile.png in Resources */,
+				CF57E0DA1CC54AD500C35C08 /* google.png in Resources */,
+				CF57E0D91CC54AD500C35C08 /* facebook2.png in Resources */,
 				CF6839CF1CC4222D000B3639 /* in.png in Resources */,
 				CF9E00901CB9A3A100BD5003 /* group2.png in Resources */,
 				CF9E006A1CB700FE00BD5003 /* Assets.xcassets in Resources */,
@@ -288,19 +367,71 @@
 				CF9E00861CB992FE00BD5003 /* price.png in Resources */,
 				CF6839981CC192FF000B3639 /* addSession.jpg in Resources */,
 				CF9E00841CB992FE00BD5003 /* football.png in Resources */,
+				CF57E0DC1CC555F100C35C08 /* google2.png in Resources */,
 				CFA09ED21CB9C7DE00F3367D /* close.png in Resources */,
 				CF8F092F1CB9C1200076E12C /* franco.jpg in Resources */,
 				CF6839CB1CC4111F000B3639 /* home2.jpeg in Resources */,
+				CF29B7DA1CC44FFD0091B705 /* edit.png in Resources */,
+				CF29B7DC1CC4508B0091B705 /* save.png in Resources */,
 				CF600D261CBD80BA000E15DF /* Pier 40.png in Resources */,
 				CFA09ED41CBC1C9500F3367D /* price2.jpeg in Resources */,
 				CF9E00991CB9A60C00BD5003 /* IMG_1663.jpg in Resources */,
 				CF9E00751CB7021400BD5003 /* IMG_1510.jpg in Resources */,
 				CF9E00681CB700FE00BD5003 /* Main.storyboard in Resources */,
 				CFA09ED01CB9C6D200F3367D /* face.png in Resources */,
+				CF57E0E81CC5830D00C35C08 /* profile3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A0E87077DE8099212CC033 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-football-in-motion/Pods-football-in-motion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A439EF191C14590FD8243C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA34F3950DB558545A834BD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-football-in-motion/Pods-football-in-motion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF9E005B1CB700FE00BD5003 /* Sources */ = {
@@ -309,7 +440,6 @@
 			files = (
 				CF68398B1CC05B9F000B3639 /* Pier40ViewController.swift in Sources */,
 				CF68398F1CC095FE000B3639 /* WebLinksViewController.swift in Sources */,
-				CFD099B31CBDCB74001226F7 /* LoginViewController.swift in Sources */,
 				CF6839891CC058F4000B3639 /* AboutInfoViewController.swift in Sources */,
 				CF9E00791CB709D100BD5003 /* FirstPageViewController.swift in Sources */,
 				CF6839C31CC404B8000B3639 /* SpecialTeamsViewController.swift in Sources */,
@@ -319,7 +449,9 @@
 				CF600D221CBD7C7D000E15DF /* SeventhViewController.swift in Sources */,
 				CFD099B11CBDCB48001226F7 /* MySessionsViewController.swift in Sources */,
 				CF6839911CC0963E000B3639 /* WebHistortViewController.swift in Sources */,
+				CF29B7E01CC453C30091B705 /* MyProfileViewController.swift in Sources */,
 				CFD099AF1CBDCB19001226F7 /* BookingViewController.swift in Sources */,
+				CF57E0E21CC576CF00C35C08 /* RegistrationViewController.swift in Sources */,
 				CFD099B51CBDCBA2001226F7 /* ControlPanelViewController.swift in Sources */,
 				CF9E00631CB700FE00BD5003 /* AppDelegate.swift in Sources */,
 				CF6839C71CC405DE000B3639 /* SkillsViewController.swift in Sources */,
@@ -435,23 +567,31 @@
 		};
 		CF9E00721CB700FE00BD5003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C274490921F4CD6808D21A /* Pods-football-in-motion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "football-in-motion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.football-in-motion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		CF9E00731CB700FE00BD5003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B983B4D275AD2919AB6FC7CD /* Pods-football-in-motion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "football-in-motion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.football-in-motion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_football_in_motion {
+  umbrella header "Pods-football-in-motion-umbrella.h"
+
+  export *
+  module * { export * }
+}

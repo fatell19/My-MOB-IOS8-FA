@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'football-in-motion' do
+ 	pod 'Firebase', '>= 2.5.1'
+ 	pod 'Google/SignIn'
+  	pod 'SwiftyJSON', '~> 2.3'
+  	pod 'Alamofire', '~> 3.2.1'
+  	pod 'AlamofireImage', '~> 2.3.1'
+
+end
+

@@ -14,7 +14,7 @@ class SeventhViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.updateWebViewWithUrl("http://www.nfl.com")
+        self.updateWebViewWithUrl("http://www.football-in-motion.com")
         
         
 
